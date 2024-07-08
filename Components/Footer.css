@@ -1,0 +1,104 @@
+/* Footer.css */
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ins-tile_wrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ins-tile_body {
+    text-align: center;
+}
+
+.ins-tile_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ins-tile_row {
+    margin: 10px 0;
+}
+
+.ins-tile_row--location {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ins-tile_delimiter {
+    display: none; /* Adjust or remove as needed */
+}
+
+.ins-tile_row--contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.ins-tile_text {
+    flex: 1;
+}
+
+.ins-tile_text a {
+    color: white;
+    text-decoration: none;
+}
+
+.ins-tile_text a:hover {
+    color: #ccc;
+}
+
+.ins-tile_row--social {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ins-tile_icon {
+    margin: 0 5px;
+}
+
+.ins-tile_icon--facebook,
+.ins-tile_icon--instagram,
+.ins-tile_icon--twitter,
+.ins-tile_icon--linkedin {
+    color: white;
+    text-decoration: none;
+}
+
+.ins-tile_icon--facebook:hover,
+.ins-tile_icon--instagram:hover,
+.ins-tile_icon--twitter:hover,
+.ins-tile_icon--linkedin:hover {
+    color: #ccc;
+}
+
+.footer p {
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .ins-tile_row--contacts {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ins-tile_text {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
