@@ -1,0 +1,32 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  margin-left: -21px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc; /* Change color on hover */
+}
+
+/* Cursor effect */
+body {
+  cursor: url('smoking-cursor.gif'), auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  body {
+    font-size: 14px;
+  }
+}
